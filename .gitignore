@@ -1,0 +1,7 @@
+/vendor
+/node_modules
+.env
+/.idea
+.idea/workspace.xml
+/public/images/articles
+/public/images/uploads

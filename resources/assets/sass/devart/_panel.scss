@@ -1,0 +1,25 @@
+.panel {
+    border-radius: 0;
+}
+
+.panel-default {
+    background-color: #fff;
+        //border : 1px solid $light-red-border;
+        border-radius: 3px 3px 0 0;
+        overflow: hidden;
+
+   > .panel-heading {
+       color: white;
+       background-color: $blue-material;
+       border-color: #ddd;
+           font-weight: 700;
+       border-radius: 0;
+           h4 {
+                   font-weight: 700;
+           }
+       //border-top : 5px solid #fdd0b6;
+    }
+        .table th {
+                border-top : none;
+        }
+}

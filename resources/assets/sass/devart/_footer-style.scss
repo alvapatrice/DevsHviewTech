@@ -1,0 +1,71 @@
+#footer {
+        h3 {
+                color : white;
+                font-weight: 300;
+                font-size: 30px;
+        }
+        p {
+                color : #aaa;
+        }
+}
+.footer-navigation-list {
+         a {
+                 color : white;
+                 font-size: 14px;
+                 font-weight: 300;
+                 margin : 3px 0;
+                 text-transform: uppercase;
+                 display : inline-block;
+                 line-height: 1.6em;
+         }
+}
+.footer_subscription {
+        background: $darkGray;
+        h4 {
+                margin-top : 20px;
+                color : white;
+                font-weight: 300;
+                text-transform: uppercase;
+        }
+        .footer-form {
+                border : 1px solid transparent;
+                border-radius: 3px;
+                overflow: hidden;
+                .input-group-addon {
+                        background: $blue-material!important;;
+                        color: white;
+                        border: none;
+
+                }
+                input {
+                        height : 40px;
+                        //border : 1px solid white;
+                        border : none;
+                }
+                input:hover, input:focus {
+                        //border : 1px solid $orange-real;
+                        border : none;
+                }
+                span {
+                        button {
+                                background-color : $blue-material!important;
+                                color : white;
+                                height : 40px;
+                                text-transform: uppercase;
+                                //border : 1px solid white;
+                                border : none;
+                                border-left : 1px solid $blue-material!important;
+                        }
+                        button:hover {
+                                color : white!important;
+                                border : none;
+                        }
+
+                }
+
+        }
+        .blue-focus {
+                border : 1px solid $blue-material!important;;
+        }
+
+}

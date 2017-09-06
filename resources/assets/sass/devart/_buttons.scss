@@ -1,0 +1,105 @@
+.btn {
+        border-radius: 3px;
+        outline: 0;
+        padding : 7px 20px;
+        font-size: 16px;
+        padding: 5px 20px;
+}
+
+.btn-primary {
+        background-color: $blue-material;
+        border: 1px solid transparent;
+        color: white;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+        background-color: $darkblue-material;
+        opacity: .8;
+        border: 1px solid transparent;
+        color: white;
+}
+.btn-success {
+        background-color:  #29ABA4;
+        color: white;
+        border: 1px solid transparent;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active {
+        background-color: #29ABA4;
+        opacity: .8;
+        border: 1px solid transparent;
+        color: white;
+}
+
+
+.btn-danger {
+        background-color:  #EB7260;
+        color: white;
+        border: 1px solid transparent;
+}
+
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active {
+        background-color: #EB7260;
+        opacity: .8;
+        border: 1px solid transparent;
+        color: white;
+}
+
+.btn-warning {
+        background-color:  #E19D29;
+        color: white;
+        border: 1px solid transparent;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active {
+        background-color: #E19D29;
+        opacity: .8;
+        border: 1px solid transparent;
+        color: white;
+}
+
+.btn-default {
+        background-color:  #fff;
+        color: #aaa;
+        border: 1px solid #aaa;
+}
+.btn-flat {
+        background-color : #fff;
+        border :none;
+        border-radius: 0;
+        padding : 10px;
+        color : #999;
+
+}
+.btn-flat:active, .btn-flat:focus, .btn-flat:hover {
+        background-color : $orange-real;
+        border : none;
+        color : white;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+        background-color: #fff;
+        opacity: .8;
+        border: 1px solid #aaa;
+        color: #444;
+}
+
+.dropdown-menu>li>.btn {
+       display : block;
+        width : 100%;
+        background : white;
+        border : none;
+}
+.dropdown-menu>li>.btn:hover{
+        background: #EB7260;
+        border :none;
+        color :white;
+
+}
+
+.btn-block {
+        display: block;
+        width: 100%!important;
+        padding: 5px 20px!important;
+        border-radius: 3px!important;
+        font-size: 16px!important;
+}

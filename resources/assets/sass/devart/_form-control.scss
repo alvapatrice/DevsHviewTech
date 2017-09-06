@@ -1,0 +1,34 @@
+.form-control {
+        border-radius: 3px;
+        box-shadow: none;
+        border: none;
+        border: 1px solid #e6e6e6;
+}
+.form-control-padd {
+        padding : 12px 17px;
+}
+
+.form-control:focus {
+        border-color: #D88D03;
+        box-shadow: none;
+        outline: 0;
+}
+
+.input-group {
+        .input-group-btn {
+                .btn {
+                        background-color: #222;
+                        .fa {
+                                color: white;
+                        }
+                }
+        }
+}
+
+.input-group input {
+        border-left: none;
+        border-right: none;
+        background-color: rgba(0, 0, 0, .5)!important;
+        color : #ccc;
+
+}

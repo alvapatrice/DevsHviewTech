@@ -1,0 +1,96 @@
+.btn-facebook, .btn-twitter, .btn-google-plus {
+        font-size: 20px;
+        width: 33.3%;
+        display: block;
+        float: left;
+        padding: 10px 20px;
+        border-radius: 0;
+}
+.btn-facebook:hover, .btn-twitter:hover, .btn-google-plus:hover {
+        text-decoration: none;
+}
+.btn-facebook {
+        color : white;
+        background-color : #395387;
+        font-weight: bold;
+
+}
+.btn-google-plus {
+        color : white;
+        background-color : #DD4B39;
+        font-weight: bold;
+}
+
+.btn-twitter {
+        color : white;
+        background-color: #5EA9DD;
+        font-weight: bold;
+}
+.btn-pinterest {
+        color : white;
+        background-color: #BD081C;
+        border-radius : 3px;
+        font-weight: bold;
+}
+.btn-github {
+        color : white;
+        background-color: #444444;
+        border-radius : 3px;
+        font-weight: bold;
+}
+.btn-facebook:hover, .btn-google-plus:hover, .btn-twitter:hover, .btn-pinterest:hover, .btn-github:hover,
+.btn-facebook:focus, .btn-google-plus:focus, .btn-twitter:focus, .btn-pinterest:focus, .btn-github:focus{
+        color : white;
+        opacity : .9;
+}
+
+.btn-twitter-top, .btn-facebook-top {
+        color: #666;
+        padding: 5px 50px;
+        background: 0 0;
+        border-radius: 3px!important;
+        transition: .5s ease all;
+        margin: 0 10px;
+        background: #fff;
+        box-shadow: 0px 1px 5px #333!important;
+        @media(max-width : 768px)
+        {
+                padding : 5px 20px;
+        }
+        .fa {
+                // font-size: 39px;
+                font-size : 2em;
+                text-shadow: 5px 5px 5px #ccc;
+        }
+        span {
+                position : relative;
+                bottom : 5px;
+                left : 5px;
+                text-transform: uppercase;
+        }
+}
+.btn-twitter-top:hover, .btn-facebook-top:hover {
+        .fa {
+                text-shadow: none;
+        }
+}
+.btn-twitter-top:hover{
+        color: white;
+        background-color: #5EA9DD;
+
+}
+.btn-facebook-top:hover {
+        color: white;
+        background-color : #395387;
+
+
+}
+.btn-icon-left {
+        .fa {
+                display: block;
+                float: left;
+                font-size : 20px;
+                position : relative;
+                top : 2px;
+        }
+}

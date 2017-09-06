@@ -1,0 +1,135 @@
+.article-list {
+
+        background: white;
+        box-shadow: none;
+//        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+margin: 10px 0;
+
+.article-header, .laravel, .laravel5, .laravel-routing, .middleware, .templating, .form, .blade-templating, .file, .relationships, .laravel-repository, .dependency-injection {
+        background-image: url('/images/categories/laravel-logo.png');
+}
+.angular {
+        background-image: url('/images/categories/angular-js.png');
+        background-size: 5% !important;
+        background-position: 4px 4px !important;
+}
+.article-header {
+
+        background-color: $gray;
+                //background-color: $light-yellow;
+                color: #444;
+                background-repeat: no-repeat;
+                background-position: 10px 18px;
+                background-size: 3%;
+//                border-bottom: 1px solid $orange;
+
+.article-content {
+
+        position: relative;
+        top: 1px;
+        background: $gray;
+                        //background: $light-yellow;
+                        padding: 0px 5px;
+                        border-bottom: 1px solid #efefef;
+                        margin-left: 50px;
+
+                        h4.article-category {
+                                font-weight: 400;
+                                line-height: 1.5em;
+                                margin-left: 5px;
+                                position: relative;
+                                top: 2px;
+                                display: inline-block;
+                                a {
+                                        color: white;
+                                        text-decoration: none;
+                                }
+                        }
+                        p.published_date {
+                                float: right;
+                                color: white;
+                                margin-top: 16px;
+                                margin-right: 50px;
+                        }
+                        .article-header-options {
+                                display: inline;
+                                //                float: right;
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                cursor: pointer;
+
+                                .fa {
+                                        cursor: pointer;
+                                        font-size: 20px;
+                                        margin: 0 5px;
+                                        padding: 15px;
+                                        color : #999;
+                                }
+                                .fa:hover, .active {
+                                        color: $blue;
+                                }
+
+                        }
+
+                }
+
+        }
+        .article-body {
+                @include clearfix;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                img {
+                        width: 100%;
+                        padding: 5px;
+                }
+                h1 {
+                        a {
+                                text-decoration: none;
+                                color: #666;
+                        }
+                }
+
+                .article-header-image {
+                        float: left;
+                        height: 150px;
+                        width: 25%;
+                        background-size: 80% !important;
+                        @media (max-width: 768px) {
+                                display: none;
+                        }
+                }
+
+                .article-data {
+                        float: left;
+                        width: 75%;
+                        @media (max-width: 768px) {
+                                width: 100%;
+                        }
+                        .title {
+                                margin: 10px;
+                                font-size: 20px!important;
+                                text-transform: uppercase;
+                                text-align: left !important;
+                        }
+                        .subtitle {
+                                margin: 8px 10px;
+                                font-size: 18px;
+                                color : #999;
+                                text-align: left !important;
+                                font-weight: 300;
+                        }
+                        .description {
+                                font-size: 16px;
+                                margin: 17px 10px;
+                                color : #777;
+                        }
+                        p {
+                                margin: 0 10px;
+                        }
+                        .showInListView {
+                                display: block;
+                        }
+                }
+        }
+}

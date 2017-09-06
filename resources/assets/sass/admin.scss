@@ -1,0 +1,59 @@
+@import "devart/variables";
+@import "devart/global";
+@import "devart/panel";
+@import "devart/fileinput";
+//@import "devart/form-control";
+//@import "devart/buttons";
+
+.downloaded-image, .image-border-shadow  {
+        display: inline-block;
+        cursor: pointer;
+        box-shadow: 0 2px 8px 0 #ddd;
+        margin : 5px;
+        transition: 200ms box-shadow;
+        border-radius: 3px;
+        overflow: hidden;
+}
+
+.downloaded-image:hover {
+        box-shadow: 0 0 0 5px $orange;
+}
+.image_details {
+        border-left  : 1px solid #ccc;
+        min-height: 400px;
+}
+
+.dropzone {
+        border : 2px dashed $orange-real;
+        box-shadow: 0 0 0 5px #373b44;
+        padding :20px;
+        background: $darkGray;
+        text-align: center;
+        color : white;
+        h3 {
+                color :white;
+                text-align: center;
+                line-height: 3em;
+                margin-top : 20px;
+        }
+
+}
+.dz-clickable {
+        cursor : pointer;
+}
+.dz-drag-hover {
+        border : 2px solid $orange-real;
+}
+.dz-preview, .dz-processing, .dz-image-preview, .dz-success, .dz-complete {
+        background-color : rgba(0,0,0, .5);
+        padding : 5px;
+}
+.dz-image {
+        text-align : center;
+}
+.dz-details {
+        padding : 10px;
+}
+.dz-success-mark, .dz-error-mark {
+        display: none;
+}

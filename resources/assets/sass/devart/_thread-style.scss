@@ -1,0 +1,112 @@
+.header-top {
+        padding-top : 20px;
+        height: 100px;
+        background: white;
+        h1, h2 {
+                line-height: 1.4em;
+                margin : 0;
+                margin-left : 50px;
+                font-weight: 300;
+                font-size: 40px;
+                color : $darkblue;
+        }
+        h2 {
+                font-size: 22px;
+                font-weight: 500;
+                margin : 5px 0;
+        }
+}
+
+.forum-navigation {
+        border-bottom: 5px solid $blue-material;
+        li {
+                margin : 0!important;
+                a {
+                        border-radius: 0;
+                        padding: 10px 40px;
+                        color :white;
+                        font-size: 16px;
+                        background: $darkGray;
+                }
+                a:hover, a:focus {
+                        background: $blue-material;
+                }
+        }
+        li.active {
+                a,a:hover,a:focus{
+                        background: $blue-material;
+                }
+        }
+}
+
+.thread-list-container {
+        background: white;
+        padding : 20px;
+        .label {
+                background: white;
+                border : 2px solid #444;
+                color : #444;
+                font-size: 14px;
+
+        }
+
+}
+
+.thread-item {
+        @include clearfix();
+        border-bottom: 1px solid #ddd;
+        position: relative;
+        padding: 10px;
+        .thread-link {
+                margin :25px 0;
+                a {
+                        color: #666;
+                        font-weight: 800;
+                        font-size: 18px;
+                        text-decoration: none;
+                }
+        }
+        .thread-tags {
+                margin-bottom: 20px;
+        }
+
+}
+
+.label-comment {
+        background: white;
+        color : $orange!important;
+        border : 2px solid $orange!important;
+        .badge {
+                background: $orange;
+        }
+}
+.label-general {
+        background: white;
+        color : $blue!important;
+        border : 2px solid $blue!important;
+}
+.label-qa {
+        background: white;
+        color : $megenta!important;
+        border : 2px solid $megenta!important;
+}
+.label-error {
+        background: white;
+        color : $red!important;
+        border : 2px solid $red!important;
+}
+.label-snippet {
+        background: white;
+        color : $lightBlue!important;
+        border : 2px solid $lightBlue!important;
+}
+.label-article-discussion {
+        background: white;
+        color : black!important;
+        border : 2px solid black!important;
+}
+.label-suggesion {
+        background: $red;
+        color : white!important;
+        border : 2px solid white!important;
+}

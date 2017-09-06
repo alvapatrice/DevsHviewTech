@@ -1,0 +1,55 @@
+.hero-container {
+    background: transparent;
+    //background: $darkGray;
+     //.hero-laravel {
+     //    a {
+     //        background: #CE443E url('/images/logos/laravel-white-tiny.png');
+     //    }
+     //}
+     //.hero-angular {
+     //    a {
+     //       background: #2196F3 url('/images/logos/angular-white-tiny.png');
+     //    }
+     //}
+     //.hero-all {
+     //    a {
+     //        background: #444 url('/images/logos/devart-logo-tiny-reverse.png');
+     //    }
+     //
+     //}
+
+    .category-heading {
+        margin : 0;
+        a {
+            display: block;
+            text-transform: uppercase;
+            text-align: center;
+            line-height: 50px;
+            color : white;
+            font-weight: 600;
+            text-decoration: none;
+            border : none;
+            border-radius : 0;
+            font-size : 16px;
+            text-transform: uppercase;
+            // background-size: 40px!important;
+            // background-repeat: no-repeat!important;
+            // background-position: 25% center;
+            // background-position-x: 25%!important;
+            // background-position-y: center!important;
+            // opacity: 1;
+            background : transparent;
+            transition: 500ms background;
+        }
+        a:hover {
+            background : rgba(0,0,0,.3);
+            // opacity : .8;
+            // background-position-x: 15%!important;
+        }
+    }
+    .category-heading:hover {
+        a {
+
+        }
+    }
+}

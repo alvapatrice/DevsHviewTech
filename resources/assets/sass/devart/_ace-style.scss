@@ -1,0 +1,45 @@
+.code-panel {
+        border-radius: 3px;
+        overflow: hidden;
+}
+.code-panel-head {
+        background-color: $gray;
+        color: $orange-real;
+        padding: 0 20px;
+        line-height: 2em;
+        font-size: 15px;
+        text-transform: uppercase;
+}
+.code_container {
+        padding :20px 0;
+        margin : 0  0 16px 0;
+        background-color: #272822;
+        border-radius: 0 0 3px 3px;
+}
+#modal_textbox .ace-editor {
+    min-height: 400px;
+}
+.ace-editor {
+    background: #fdfdfd;
+    font-size: 12px!important;
+    overflow: hidden;
+    line-height: 1.6em!important;
+    font-family: 'Source Code Pro', Monaco, Consolas, 'Lucida Console', monospace!important;
+}
+.ace_content {
+//    margin-left : 10px!important;
+//    margin-top : 10px!important;
+}
+.ace_gutter {
+//    margin-top : 20px!important;
+    opacity: 0!important;
+}
+.ace_scroller {
+//   top : -10px!important;
+//        overflow-y: scroll!important;
+//        overflow-x: auto!important; ;
+}
+ #codearea {
+    width: 560px;
+//    height: 500px;
+}
